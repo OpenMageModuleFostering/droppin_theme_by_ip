@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Droppin_Theme_By_IP</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Show a diferent package and template for your developers. Defined by IP, so regular visitors will still see the original template.</summary>
+    <description>This extension allows you to show a custom theme to chosen IP's. This allows you to show a diferent package and template for your developers. The IP filter ensures that you can control who sees the new theme under development, and your regular visitors will still see the orginal live theme.&#xD;
+&#xD;
+Simple but does a good job making development on a live server, easier.</description>
+    <notes>The initial release.</notes>
+    <authors><author><name>Morten Munkholm</name><user>droppinstudio</user><email>morten@droppinstudio.dk</email></author></authors>
+    <date>2014-02-28</date>
+    <time>21:18:36</time>
+    <contents><target name="magecommunity"><dir name="Droppin"><dir name="ThemeByIp"><dir name="Helper"><file name="Data.php" hash="e464b457e4a236839f240ad1893cc831"/></dir><dir name="Model"><file name="Observer.php" hash="e4429d35dae3e27017edcdc9577ab5eb"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ThemeByIpController.php" hash="0ee4c66aa8574cd4be717dbef4f820b3"/></dir></dir><dir name="etc"><file name="config.xml" hash="9a7bf68d2474ae651c8b5fc8afe7579a"/><file name="system.xml" hash="9dc57fcabcbe279b2d292f28b3b747ba"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Droppin_ThemeByIp.xml" hash="782aeddae26b2441a6bfca2381b23f68"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

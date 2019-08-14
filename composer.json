@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Droppin_Theme_By_IP",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Show a diferent package and template for your developers. Defined by IP, so regular visitors will still see the original template.",
+    "authors": [
+    {
+        "name": "Morten Munkholm",
+        "email": "morten@droppinstudio.dk"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

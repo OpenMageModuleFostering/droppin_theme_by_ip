@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+    <dev>
+       
+        <tab>advanced</tab> 
+       
+        <show_in_default>1</show_in_default>
+        <show_in_website>1</show_in_website>
+        <show_in_store>1</show_in_store>
+        <groups>
+            <themebyip_group1 translate="label">
+                <label>Developer Theme Settings</label>
+                <frontend_type>text</frontend_type>
+                <sort_order>2000</sort_order>
+                <show_in_default>1</show_in_default>
+                <show_in_website>1</show_in_website>
+                <show_in_store>1</show_in_store>
+                <fields>                   
+                    <ip_array translate="label">
+                        <label>List of IP's to show different theme</label>
+                        <frontend_type>text</frontend_type>
+                        <sort_order>1</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment>Comma separated</comment>
+                    </ip_array>
+                    <theme_package translate="label">
+                        <label>Theme package name</label>
+                        <frontend_type>text</frontend_type>
+                        <sort_order>2</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                    </theme_package>
+                    <theme_template translate="label">
+                        <label>Theme template name</label>
+                        <frontend_type>text</frontend_type>
+                        <sort_order>3</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment>This also covers the skin folder</comment>
+                    </theme_template>                  
+                </fields>
+            </themebyip_group1>
+        </groups>
+    </dev>
+</sections>  
+</config>

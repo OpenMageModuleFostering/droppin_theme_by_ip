@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Droppin_ThemeByIp>
+			<version>1.0</version>
+		</Droppin_ThemeByIp>
+	</modules>
+
+	<global>
+		<models>
+			<themebyip>
+				<class>Droppin_ThemeByIp_Model</class>
+			</themebyip>
+		</models>
+		<helpers>
+			<themebyip>
+				<class>Droppin_ThemeByIp_Helper</class>
+			</themebyip>
+		</helpers>
+
+		<events>
+			<controller_action_predispatch>
+				<observers>
+					<dev_theme_changer>
+						<type>singleton</type>
+						<class>Droppin_ThemeByIp_Model_Observer</class>
+						<method>preDispatchEvent</method>
+					</dev_theme_changer>
+				</observers>
+			</controller_action_predispatch>
+		</events>
+
+	</global>
+
+	<admin>
+		<routers>
+			<themebyip>
+				<use>admin</use>
+				<args>
+					<module>Droppin_ThemeByIp</module>
+					<frontName>themebyip</frontName>
+				</args>
+			</themebyip>
+		</routers>
+	</admin>
+
+</config>
